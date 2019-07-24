@@ -9,6 +9,10 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          navigationLinks {
+            text
+            href
+          }
         }
       }
     }
@@ -27,6 +31,15 @@ const Layout = ({ children }) => {
         <span>{data.site.siteMetadata.title}</span>
       </Header>
       <Main>
+        <nav>
+          <ul>
+            {data.site.siteMetadata.navigationLinks.map(link => (
+              <li key={link.text}>
+                <a href={link.href}>{link.text}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <Container>{children}</Container>
       </Main>
     </StyledLayout>
