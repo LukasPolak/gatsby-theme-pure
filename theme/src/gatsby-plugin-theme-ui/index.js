@@ -3,6 +3,9 @@
  * @see https://theme-ui.com/
  * @see https://theme-ui.com/gatsby-plugin/
  */
+
+import "typeface-montserrat"
+
 export default {
   colors: {
     text: "#232129",
@@ -11,7 +14,7 @@ export default {
   },
   fonts: {
     default:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+      'Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   },
   fontSizes: [16, 18, 20, 22, 27, 36],
   lineHeights: {
@@ -30,23 +33,41 @@ export default {
       lineHeight: "text",
     },
     Header: {
-      backgroundColor: "primary",
-      color: "background",
-      fontWeight: "bold",
       margin: 0,
       span: {
         display: "block",
         fontSize: 3,
         margin: "0 auto",
+        textAlign: "center",
         maxWidth: "container",
         padding: 3,
         width: "90vw",
+        borderBottom: "1px solid black",
+        textTransform: "uppercase",
       },
     },
     Main: {
       margin: "0 auto",
       maxWidth: "container",
       width: "90vw",
+      ul: {
+        textAlign: "center",
+      },
+      li: {
+        display: "inline-block",
+        padding: 3,
+      },
+      a: {
+        color: "black",
+      },
+      "a:hover": {
+        textDecoration: "none",
+      },
+      hr: {
+        borderColor: "rgba(0, 0, 0, 0.50)",
+        borderWidth: "0.5px",
+        margin: "32px 0",
+      },
     },
     Container: {
       padding: 0,
