@@ -22,7 +22,8 @@
     "@emotion/core": "^10.0.14",
     "@mdx-js/react": "^1.0.21",
     "gatsby-plugin-theme-ui": "^0.2.2",
-    "theme-ui": "^0.2.2"
+    "theme-ui": "^0.2.2",
+    "typeface-montserrat": "0.0.75"
   },
   "keywords": [
     "gatsby",
