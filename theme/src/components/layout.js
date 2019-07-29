@@ -28,6 +28,7 @@ const Layout = ({ children }) => {
         ]}
       >
         <meta charSet="utf-8" />
+        <meta name="Description" content="Pure theme for GatsbyJS."></meta>
         <title>Pure | Gatsby theme</title>
         <html lang="en" />
       </Helmet>
