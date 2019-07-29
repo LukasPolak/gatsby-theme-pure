@@ -1,9 +1,9 @@
 {
   "name": "gatsby-theme-jam-example",
-  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
+  "author": "Lukas Polak <hello@lukaspolak.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlengstorf/gatsby-theme-jam-example.git"
+    "url": "https://github.com/LukasPolak/gatsby-theme-pure"
   },
   "version": "1.0.1",
   "main": "index.js",
@@ -21,7 +21,9 @@
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@mdx-js/react": "^1.0.21",
+    "gatsby-plugin-react-helmet": "~3.1.2",
     "gatsby-plugin-theme-ui": "^0.2.2",
+    "react-helmet": "~5.2.1",
     "theme-ui": "^0.2.2",
     "typeface-montserrat": "0.0.75"
   },
