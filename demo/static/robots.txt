@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Disallow:
+Sitemap: https://gatsby-theme-pure.netlify.com
