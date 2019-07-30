@@ -40,7 +40,7 @@ To ensure your Theme Jam submission [follows the rules](https://themejam.gatsbyj
 - [x] Update the `repository` field in `package.json`
 - [x] Make sure the theme’s `keywords` in `package.json` include `gatsby`, `gatsby-theme`, and `gatsby-plugin`
 - [x] Publish your theme to npm ([docs][npmpublish])
-- [z] Submit your theme at https://themejam.gatsbyjs.org
+- [x] Submit your theme at https://themejam.gatsbyjs.org
 
 [a11y]: https://gatsbyjs.org/docs/making-your-site-accessible#how-to-improve-accessibility
 [Lighthouse]: https://developers.google.com/web/tools/lighthouse/
