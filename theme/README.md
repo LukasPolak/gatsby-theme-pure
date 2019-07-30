@@ -10,14 +10,14 @@ To use this theme in your Gatsby sites, follow these instructions:
 
 1.  Install the theme
     ```sh
-    npm install --save gatsby-theme-jam-example
+    npm i gatsby-theme-pure
     ```
 
 2.  Add the theme to your `gatsby-config.js`:
     ```js
     module.exports = {
       plugins: [
-        'gatsby-theme-jam-example'
+        'gatsby-theme-pure'
       ]
     }
     ```
@@ -31,16 +31,16 @@ To use this theme in your Gatsby sites, follow these instructions:
 
 To ensure your Theme Jam submission [follows the rules](https://themejam.gatsbyjs.org/rules), use this checklist:
 
-- [ ] Use our [accessibility guide][a11y] to ensure your site meets our accessibility standards
-- [ ] Run a performance audit using [Lighthouse][] and/or [WebPageTest][]
-- [ ] Set up a live demo using [Netlify][] or [GitHub Pages][]
-- [ ] Add installation documentation to the README
-- [ ] Update the `name` field in `package.json`
-- [ ] Update the `author` field in `package.json`
-- [ ] Update the `repository` field in `package.json`
-- [ ] Make sure the theme’s `keywords` in `package.json` include `gatsby`, `gatsby-theme`, and `gatsby-plugin`
-- [ ] Publish your theme to npm ([docs][npmpublish])
-- [ ] Submit your theme at https://themejam.gatsbyjs.org
+- [x] Use our [accessibility guide][a11y] to ensure your site meets our accessibility standards
+- [x] Run a performance audit using [Lighthouse][] and/or [WebPageTest][]
+- [x] Set up a live demo using [Netlify][] or [GitHub Pages][]
+- [x] Add installation documentation to the README
+- [x] Update the `name` field in `package.json`
+- [x] Update the `author` field in `package.json`
+- [x] Update the `repository` field in `package.json`
+- [x] Make sure the theme’s `keywords` in `package.json` include `gatsby`, `gatsby-theme`, and `gatsby-plugin`
+- [x] Publish your theme to npm ([docs][npmpublish])
+- [z] Submit your theme at https://themejam.gatsbyjs.org
 
 [a11y]: https://gatsbyjs.org/docs/making-your-site-accessible#how-to-improve-accessibility
 [Lighthouse]: https://developers.google.com/web/tools/lighthouse/
